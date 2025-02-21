@@ -19,7 +19,7 @@ class _CalculatorUIState extends State<CalculatorUI> {
       // so that the display can reflect the updated values. If we changed
       // _counter without calling setState(), then the build method would not be
       // called again, and so nothing would appear to happen.
-      _counter = _counter + 2;
+      _counter = _counter + 5;
     });
   }
 
@@ -35,7 +35,7 @@ class _CalculatorUIState extends State<CalculatorUI> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
-        title: const Text('Calculator'),
+        title: const Text('Calculator Latest'),
       ),
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
